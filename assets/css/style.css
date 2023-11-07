@@ -270,3 +270,92 @@ p {
     background-color: var(--cor-destaque);
     transition: .7s;
 }
+
+.parallax {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/burger-parallax.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px;
+}
+
+.parallax h2 {
+    width: 500px;
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--cor-branca);
+    padding-bottom: 60px;
+    text-shadow: 3px 2px var(--cor-destaque);
+    margin: auto;
+}
+
+.parallax a {
+    text-decoration: none;
+    color: var(--cor-branca);
+    filter: drop-shadow(5px 5px 3px var(--cor-secundaria));
+    font-size: 2rem;
+    font-weight: 400;
+    border: 1px solid var(--cor-branca);
+    padding: 16px 40px;
+    margin: auto;
+}
+
+.parallax a:hover {
+    background-color: var(--cor-destaque);
+    transition: .7s;
+}
+
+.customer-reviews {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-branca);
+    padding-top: 60px;
+    gap: 3%;
+
+}
+
+.customer-reviews-text-box {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+    gap: 3%;
+}
+
+.customer-reviews-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.customer-reviews-items {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 400px;
+    height: 150px;
+}
+
+.customer-reviews h2 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--cor-primaria);
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.customer-reviews p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-primaria);
+}
+
+
+.review-item1 img {
+    width: 100px;
+    border-radius: 50%;
+}
+
